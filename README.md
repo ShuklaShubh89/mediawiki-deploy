@@ -1,8 +1,16 @@
 # Welcome to your CDK TypeScript project!
 
-This is a blank project for TypeScript development with CDK.
+This is a project for TypeScript development with CDK.
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
+
+Use these commands in sequence to run the app:
+
+1. install npm
+2. install pnpm ( npm install -g pnpm)
+3. install cdk cli (npm install -g cdk)
+4. pnpm build
+5. cdk deploy ( This assumes you have your aws cli configured )
 
 ## Useful commands
 
