@@ -11,6 +11,8 @@ Use these commands in sequence to run the app:
 3. install cdk cli (npm install -g cdk)
 4. pnpm build
 5. cdk deploy ( This assumes you have your aws cli configured )
+6. In the outputs navigate to the loadbalancer dns.
+7. change the url to <dns>/mediawiki
 
 ## Useful commands
 
